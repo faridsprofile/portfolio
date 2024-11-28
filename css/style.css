@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Epilogue", sans-serif;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 90px;    
+    color: #2D2D2D;
+}
+h2{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    color: #2D2D2D;
+}
+h3{
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 42px;
+    color: #2D2D2D;
+}
+h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #2D2D2D;
+    padding: 25px 0 10px 0;
+}
+h5{
+    
+}
+h6{}
+p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #2D2D2D;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* nav css start */
+nav{}
+nav .navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+}
+nav .navbar .logo{}
+nav .navbar .logo img{}
+
+nav .navbar .topmenu{}
+nav .navbar .topmenu ul{
+    display: flex;
+    gap: 50px;
+}
+nav .navbar .topmenu ul li{
+    list-style: none;
+}
+nav .navbar .topmenu ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 28px;
+    color: #2D2D2D;
+}
+/* nav css end */
+
+/* hero section css start */
+#hero{
+    padding: 100px 0;
+}
+#hero .hero-inner{
+    display: flex;
+    justify-content: space-between;
+}
+#hero .hero-inner .hero-left{
+    width: 50%;
+}
+#hero .hero-inner .hero-left h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+#hero .hero-inner .hero-left h1{
+    padding: 40px 0;
+    
+}
+#hero .hero-inner .hero-left p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #2D2D2D;
+}
+#hero .hero-inner .hero-right{
+    width: 50%;
+}
+#hero .hero-inner .hero-right img{}
+/* hero section css end */
+
+/* logos section css start */
+#logos{
+    
+}
+#logos .logos-inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 66.41px 0;
+    border-top: 1px solid #00000021;
+    border-bottom: 1px solid #00000021;
+}
+#logos .logos-inner img{}
+/* logos section css end */
+
+
+/* skills section css start */
+#skills{
+    padding: 180px 0;
+}
+#skills .skills-inner{
+    display: flex;
+    justify-content: space-between;
+    gap: 125px;
+    text-align: center;
+}
+#skills .skills-inner .skill-card{
+    padding: 0 40px;
+}
+#skills .skills-inner .skill-card img{}
+#skills .skills-inner .skill-card h3{}
+#skills .skills-inner .skill-card p{}
+/* skills section css end */
+
+/* latest-work section css start */
+#latest-work{}
+#latest-work .heading{
+    text-align: center;
+}
+#latest-work .heading h2{
+    padding-bottom: 60px;
+}
+#latest-work .work-group{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    column-gap: 67px;
+    row-gap: 60px;
+}
+#latest-work .work-group .single-work{}
+#latest-work .work-group .single-work img{
+    width: 100%;
+}
+#latest-work .work-group .single-work h4{}
+#latest-work .work-group .single-work p{}
+/* latest-work section css end */
+
+/* cleint-section css start */
+#client{
+    padding: 100px 0 150px 0;
+}
+#client .heading{
+    text-align: center;
+    padding-bottom: 55px;
+}
+#client .heading h2{}
+#client .client-group{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 67.5px;
+}
+#client .client-group .single-client{
+    background: #FFFCF5;
+    border: 1px solid #FFD285;
+    padding: 30px 22px 30px 30px;
+}
+#client .client-group .single-client h4{
+    padding: 0 25px;
+}
+#client .client-group .single-client .client-inner{
+    padding: 0 25px;
+    /* margin-top: auto; */
+    display: flex;
+    align-items: flex-start;
+    column-gap: 20px;
+    margin-top: 80px;
+}
+#client .client-group .single-client .client-inner img{}
+#client .client-group .single-client .client-inner .client-info{display: inline-block;}
+#client .client-group .single-client .client-inner .client-info .rating{}
+#client .client-group .single-client .client-inner .client-info p{}
+/* cleint-section css end */
+
+/* footer section css start */
+footer{}
+footer .footer-item{
+    border-top: 2px solid grey;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-item .footer-left{
+    width: 50%;
+    padding-right: 230px;
+}
+footer .footer-item .footer-left h2{}
+footer .footer-item .footer-left p{
+    padding: 40px 0 60px 0;
+}
+footer .footer-item .footer-left ul{
+    list-style: none;
+}
+footer .footer-item .footer-left ul li{
+    display: inline;
+}
+footer .footer-item .footer-left ul li a{
+    font-size: 26px;
+    margin-right: 10px;
+    color: #000;
+}
+footer .footer-item .footer-right{
+    width: 50%;
+}
+footer .footer-item .footer-right form{
+}
+footer .footer-item .footer-right form input{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 10px;
+    padding: 30px;
+    font-size: 17px;
+    color: #fff;
+    background: #F3F3F3;
+    font-family: "Epilogue", sans-serif;
+    /* outline: none; */
+    border: none;
+}
+footer .footer-item .footer-right form textarea{
+    width: 100%;
+    height: 200px;
+    background: #F3F3F3;
+    font-size: 17px;
+    padding: 30px;
+    font-family: "Epilogue", sans-serif;
+    border: none;
+}
+footer .footer-item .footer-right form .btnsubmit{
+    width: 235px;
+    height: 80px;
+    background: #2D2D2D;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 40px;
+}
+/* footer section css end */
