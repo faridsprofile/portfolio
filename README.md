@@ -1,1 +1,1 @@
-[# portfolio](https://faridsprofile.github.io/portfolio/)
+https://faridsprofile.github.io/portfolio/
